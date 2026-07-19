@@ -1,0 +1,116 @@
+original_class_id,original_voxel_value,original_region_name,benchmark_50_label_id,benchmark_50_region_name,mapping_status,benchmark_label_composition,n_original_labels_in_benchmark_region
+0,0,background,0,background,background,-,-
+12,14,cerebral peduncle,0,excluded / assigned to background,excluded_to_background,-,-
+18,22,fornix,0,excluded / assigned to background,excluded_to_background,-,-
+19,23,anterior commissure: pars posterior,0,excluded / assigned to background,excluded_to_background,-,-
+28,54,fundus of striatum,0,excluded / assigned to background,excluded_to_background,-,-
+31,59,stria terminalis,0,excluded / assigned to background,excluded_to_background,-,-
+41,99,habenular commissure,0,excluded / assigned to background,excluded_to_background,-,-
+42,100,posterior commissure,0,excluded / assigned to background,excluded_to_background,-,-
+45,103,anterior commissure: pars posterior,0,excluded / assigned to background,excluded_to_background,-,-
+51,113,inferior olivary complex,0,excluded / assigned to background,excluded_to_background,-,-
+52,114,cerebral peduncle,0,excluded / assigned to background,excluded_to_background,-,-
+54,116,optic tract,0,excluded / assigned to background,excluded_to_background,-,-
+56,119,cerebral aqueduct,0,excluded / assigned to background,excluded_to_background,-,-
+58,122,fornix,0,excluded / assigned to background,excluded_to_background,-,-
+74,154,fundus of striatum,0,excluded / assigned to background,excluded_to_background,-,-
+76,156,ventral tegmental decussation,0,excluded / assigned to background,excluded_to_background,-,-
+78,159,stria terminalis,0,excluded / assigned to background,excluded_to_background,-,-
+81,166,cuneate nucleus,0,excluded / assigned to background,excluded_to_background,-,-
+82,168,cuneate nucleus,0,excluded / assigned to background,excluded_to_background,-,-
+91,199,habenular commissure,0,excluded / assigned to background,excluded_to_background,-,-
+94,205,stria medullaris,0,excluded / assigned to background,excluded_to_background,-,-
+100,213,inferior olivary complex,0,excluded / assigned to background,excluded_to_background,-,-
+103,216,optic tract,0,excluded / assigned to background,excluded_to_background,-,-
+108,225,stria medullaris,0,excluded / assigned to background,excluded_to_background,-,-
+89,190,cerebral cortex: frontal lobe,1,cerebral cortex: frontal lobe,mapped_to_50_region,single_original_label,1
+14,17,striatum,2,striatum,mapped_to_50_region,single_original_label,1
+86,181,cerebral cortex: parieto-temporal lobe,3,cerebral cortex: parieto-temporal lobe,mapped_to_50_region,single_original_label,1
+44,102,lateral olfactory tract,4,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+46,105,olfactory bulbs,4,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+65,140,subependymale zone / rhinocele,4,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+68,145,olfactory tubercle,4,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+102,215,anterior commissure: pars anterior,4,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+92,202,cerebellar cortex,5,cerebellar cortex,mapped_to_50_region,single_original_label,1
+113,247,arbor vita of cerebellum,6,arbor vita of cerebellum,mapped_to_50_region,single_original_label,1
+79,161,mammillary bodies,7,thalamus,mapped_to_50_region,merged_multiple_original_labels,4
+93,204,thalamus,7,thalamus,mapped_to_50_region,merged_multiple_original_labels,4
+97,210,mammilothalamic tract,7,thalamus,mapped_to_50_region,merged_multiple_original_labels,4
+114,250,hypothalamus,7,thalamus,mapped_to_50_region,merged_multiple_original_labels,4
+8,10,periaqueductal grey,8,midbrain,mapped_to_50_region,merged_multiple_original_labels,6
+20,,fasciculus retroflexus,8,midbrain,mapped_to_50_region,merged_multiple_original_labels,6
+61,125,fasciculus retroflexus,8,midbrain,mapped_to_50_region,merged_multiple_original_labels,6
+90,194,midbrain,8,midbrain,mapped_to_50_region,merged_multiple_original_labels,6
+106,222,cerebellar peduncle: superior,8,midbrain,mapped_to_50_region,merged_multiple_original_labels,6
+111,242,cerebellar peduncle: superior,8,midbrain,mapped_to_50_region,merged_multiple_original_labels,6
+109,230,cerebral cortex: entorhinal cortex,9,cerebral cortex: entorhinal cortex,mapped_to_50_region,single_original_label,1
+36,68,corpus callosum,10,corpus callosum,mapped_to_50_region,single_original_label,1
+33,63,stratum granulosum of hippocampus,11,hippocampus,mapped_to_50_region,merged_multiple_original_labels,3
+35,66,dentate gyrus of hippocampus,11,hippocampus,mapped_to_50_region,merged_multiple_original_labels,3
+47,106,hippocampus,11,hippocampus,mapped_to_50_region,merged_multiple_original_labels,3
+15,18,corticospinal tract/pyramids,12,pons,mapped_to_50_region,merged_multiple_original_labels,9
+23,45,cerebellar peduncle: middle,12,pons,mapped_to_50_region,merged_multiple_original_labels,9
+39,85,pontine nucleus,12,pons,mapped_to_50_region,merged_multiple_original_labels,9
+60,124,superior olivary complex,12,pons,mapped_to_50_region,merged_multiple_original_labels,9
+87,185,pontine nucleus,12,pons,mapped_to_50_region,merged_multiple_original_labels,9
+88,187,pons,12,pons,mapped_to_50_region,merged_multiple_original_labels,9
+101,214,superior olivary complex,12,pons,mapped_to_50_region,merged_multiple_original_labels,9
+104,218,corticospinal tract/pyramids,12,pons,mapped_to_50_region,merged_multiple_original_labels,9
+112,245,cerebellar peduncle: middle,12,pons,mapped_to_50_region,merged_multiple_original_labels,9
+16,19,facial nerve (cranial nerve 7),13,medulla,mapped_to_50_region,merged_multiple_original_labels,7
+17,20,medial lemniscus/medial longitudinal fasciculus,13,medulla,mapped_to_50_region,merged_multiple_original_labels,7
+57,120,medial lemniscus/medial longitudinal fasciculus,13,medulla,mapped_to_50_region,merged_multiple_original_labels,7
+59,123,cerebellar peduncle: inferior,13,medulla,mapped_to_50_region,merged_multiple_original_labels,7
+83,174,medulla,13,medulla,mapped_to_50_region,merged_multiple_original_labels,7
+105,219,facial nerve (cranial nerve 7),13,medulla,mapped_to_50_region,merged_multiple_original_labels,7
+107,223,cerebellar peduncle: inferior,13,medulla,mapped_to_50_region,merged_multiple_original_labels,7
+55,118,fourth ventricle,14,fourth ventricle,mapped_to_50_region,single_original_label,1
+66,143,colliculus: inferior,15,colliculus: inferior,mapped_to_50_region,single_original_label,1
+49,109,colliculus: superior,16,colliculus: superior,mapped_to_50_region,single_original_label,1
+71,151,amygdala,17,amygdala,mapped_to_50_region,single_original_label,1
+27,53,medial septum,18,lateral septum,mapped_to_50_region,merged_multiple_original_labels,2
+95,207,lateral septum,18,lateral septum,mapped_to_50_region,merged_multiple_original_labels,2
+80,164,cerebral cortex: occipital lobe,19,cerebral cortex: occipital lobe,mapped_to_50_region,single_original_label,1
+22,44,globus pallidus,20,globus pallidus,mapped_to_50_region,merged_multiple_original_labels,2
+67,144,globus pallidus,20,globus pallidus,mapped_to_50_region,merged_multiple_original_labels,2
+72,152,basal forebrain,21,basal forebrain,mapped_to_50_region,single_original_label,1
+64,133,pre-para subiculum,22,pre-para subiculum,mapped_to_50_region,single_original_label,1
+75,155,nucleus accumbens,23,nucleus accumbens,mapped_to_50_region,single_original_label,1
+77,157,interpeduncular nucleus,24,interpeduncular nucleus,mapped_to_50_region,single_original_label,1
+98,211,fimbria,25,fimbria,mapped_to_50_region,single_original_label,1
+30,57,lateral ventricle,26,lateral ventricle,mapped_to_50_region,merged_multiple_original_labels,2
+38,77,lateral ventricle,26,lateral ventricle,mapped_to_50_region,merged_multiple_original_labels,2
+84,176,bed nucleus of stria terminalis,27,bed nucleus of stria terminalis,mapped_to_50_region,single_original_label,1
+69,146,third ventricle,28,third ventricle,mapped_to_50_region,single_original_label,1
+50,112,internal capsule,29,internal capsule,mapped_to_50_region,single_original_label,1
+34,64,cerebral cortex: frontal lobe,30,cerebral cortex: frontal lobe,mapped_to_50_region,single_original_label,1
+5,7,striatum,31,striatum,mapped_to_50_region,single_original_label,1
+85,180,cerebral cortex: parieto-temporal lobe,32,cerebral cortex: parieto-temporal lobe,mapped_to_50_region,single_original_label,1
+3,5,olfactory bulbs,33,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+40,95,olfactory tubercle,33,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+43,101,lateral olfactory tract,33,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+53,115,anterior commissure: pars anterior,33,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+110,240,subependymale zone / rhinocele,33,olfactory bulbs,mapped_to_50_region,merged_multiple_original_labels,5
+1,2,cerebellar cortex,34,cerebellar cortex,mapped_to_50_region,single_original_label,1
+24,47,arbor vita of cerebellum,35,arbor vita of cerebellum,mapped_to_50_region,single_original_label,1
+2,4,thalamus,36,thalamus,mapped_to_50_region,merged_multiple_original_labels,4
+32,61,mammillary bodies,36,thalamus,mapped_to_50_region,merged_multiple_original_labels,4
+70,150,hypothalamus,36,thalamus,mapped_to_50_region,merged_multiple_original_labels,4
+99,212,mammilothalamic tract,36,thalamus,mapped_to_50_region,merged_multiple_original_labels,4
+96,209,cerebral cortex: entorhinal cortex,37,cerebral cortex: entorhinal cortex,mapped_to_50_region,single_original_label,1
+6,8,corpus callosum,38,corpus callosum,mapped_to_50_region,single_original_label,1
+4,6,hippocampus,39,hippocampus,mapped_to_50_region,merged_multiple_original_labels,3
+11,13,stratum granulosum of hippocampus,39,hippocampus,mapped_to_50_region,merged_multiple_original_labels,3
+13,16,dentate gyrus of hippocampus,39,hippocampus,mapped_to_50_region,merged_multiple_original_labels,3
+21,43,colliculus: inferior,40,colliculus: inferior,mapped_to_50_region,single_original_label,1
+7,9,colliculus: superior,41,colliculus: superior,mapped_to_50_region,single_original_label,1
+25,51,amygdala,42,amygdala,mapped_to_50_region,single_original_label,1
+48,107,lateral septum,43,lateral septum,mapped_to_50_region,merged_multiple_original_labels,2
+73,153,medial septum,43,lateral septum,mapped_to_50_region,merged_multiple_original_labels,2
+62,130,cerebral cortex: occipital lobe,44,cerebral cortex: occipital lobe,mapped_to_50_region,single_original_label,1
+26,52,basal forebrain,45,basal forebrain,mapped_to_50_region,single_original_label,1
+63,131,pre-para subiculum,46,pre-para subiculum,mapped_to_50_region,single_original_label,1
+29,55,nucleus accumbens,47,nucleus accumbens,mapped_to_50_region,single_original_label,1
+9,11,fimbria,48,fimbria,mapped_to_50_region,single_original_label,1
+37,76,bed nucleus of stria terminalis,49,bed nucleus of stria terminalis,mapped_to_50_region,single_original_label,1
+10,12,internal capsule,50,internal capsule,mapped_to_50_region,single_original_label,1
