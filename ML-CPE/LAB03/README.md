@@ -6,6 +6,7 @@ This technical lab evaluated an end-to-end Machine Learning pipeline applied to 
 ---
 
 Key Methodologies and Implementation
+
 LAB 1: Regression Performance (Age Prediction)
    
 Multiple regression architectures were evaluated to predict continuous human age values from facial features[cite: 2]:
@@ -13,12 +14,14 @@ Multiple regression architectures were evaluated to predict continuous human age
 -Multiple Linear Regression:** Improved predictive performance significantly by utilizing multi-feature inputs, yielding an MAE of 12.86 years and R² of 0.2778.
 -Random Forest Regressor:** Delivered the optimal regression performance, minimizing the prediction error to an MAE of 11.95 years and achieving an R² of 0.3446.
 -Performance Visualization:** Model accuracy was evaluated using scatter plots comparing predicted vs. actual age against the ideal reference line (y = x).
+
 LAB 2: Classification Metrics & Decision Boundaries (Gender Prediction)
    
 Binary classification techniques were implemented to predict gender (Male vs. Female) through statistical metrics and spatial projection[cite: 2]:
 -Performance Metrics:** The model achieved an overall Accuracy of 77.10%, Precision of 78.20%, Recall of 73.46%, and an F1-Score of 0.7576[cite: 2].
 -Confusion Matrix Evaluation:** Evaluation across 4,572 test instances yielded 1,889 True Males, 1,636 True Females, 591 False Males, and 456 False Females.
 -Dimensionality Reduction & Decision Boundary:** Principal Component Analysis (PCA) was used to project high-dimensional features into a 2D space (Component 1 vs. Component 2) to visualize the decision boundary separating Male and Female classes[cite: 2].
+
 LAB 3: Model Comparison & Overfitting Evaluation
    
 A comparative generalization analysis was performed to measure potential overfitting and model stability[cite: 2]:
