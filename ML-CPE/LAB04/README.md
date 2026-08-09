@@ -1,8 +1,41 @@
+# LAB 04: k-Nearest Neighbor (KNN)
+
+## Dataset
+
+This experiment uses the **Zoo Animals Extended Dataset** for animal classification.
+
+The dataset contains information about animal characteristics such as:
+
+- Hair
+- Feathers
+- Eggs
+- Milk
+- Airborne
+- Aquatic
+- Predator
+- Toothed
+- Backbone
+- Breathes
+- Venomous
+- Fins
+- Legs
+- Tail
+- Domestic
+- Catsize
+
+The `class_type` column is used as the target variable for classification.
+
+### Dataset Source
+
+Zoo Animals Extended Dataset on Kaggle:
+
+https://www.kaggle.com/datasets/agajorte/zoo-animals-extended-dataset
+
+---
+
 ## Experimental Results
 
 The K-Nearest Neighbors (KNN) model was tested using three different values of k: 3, 5, and 7.
-
-The experimental results are shown below:
 
 | k Value | Accuracy |
 |---|---:|
@@ -11,6 +44,8 @@ The experimental results are shown below:
 | 7 | 0.9565 or 95.65% |
 
 Based on the experimental results, **k = 5** achieved the highest accuracy of **1.0000 or 100.00%**. Therefore, **k = 5** was selected as the best value for this dataset.
+
+---
 
 ## Experimental Conclusion
 
