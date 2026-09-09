@@ -1,0 +1,47 @@
+[
+    {
+        "configuration": "small",
+        "epochs": 10,
+        "accuracy": 0.4782608695652174
+    },
+    {
+        "configuration": "small",
+        "epochs": 20,
+        "accuracy": 0.6956521739130435
+    },
+    {
+        "configuration": "small",
+        "epochs": 30,
+        "accuracy": 0.6956521739130435
+    },
+    {
+        "configuration": "medium",
+        "epochs": 10,
+        "accuracy": 0.17391304347826086
+    },
+    {
+        "configuration": "medium",
+        "epochs": 20,
+        "accuracy": 0.5217391304347826
+    },
+    {
+        "configuration": "medium",
+        "epochs": 30,
+        "accuracy": 0.782608695652174
+    },
+    {
+        "configuration": "large",
+        "epochs": 10,
+        "accuracy": 0.6521739130434783
+    },
+    {
+        "configuration": "large",
+        "epochs": 20,
+        "accuracy": 0.8260869565217391
+    },
+    {
+        "configuration": "large",
+        "epochs": 30,
+        "accuracy": 0.7391304347826086
+    }
+]
