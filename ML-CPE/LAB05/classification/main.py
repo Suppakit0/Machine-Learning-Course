@@ -4,8 +4,7 @@ import joblib
 import numpy as np
 import matplotlib
 
-# ใช้โหมด "Agg" เพื่อให้ Matplotlib สร้างกราฟและเซฟเป็นไฟล์ภาพได้เลย 
-# โดยไม่ต้องเปิดหน้าต่าง GUI ขึ้นมา (เหมาะสำหรับการรันสคริปต์อัตโนมัติ)
+# ใช้โหมด "Agg" เพื่อให้ Matplotlib สร้างกราฟและเซฟเป็นไฟล์ภาพได้เลย โดยไม่ต้องเปิดหน้าต่าง GUI ขึ้นมา 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
