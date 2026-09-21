@@ -40,25 +40,6 @@ LAB07/
 └── README.md
 ```
 
-# วิธีการติดตั้งและใช้งาน (Getting Started)
-
-1. **ติดตั้งไลบรารีที่จำเป็น:**
-   ```bash
-   pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
-   ```
-
-2. **รันไปป์ไลน์การเทรนโมเดล (Training Pipeline):**
-   เข้าไปที่โฟลเดอร์ `m-project/` แล้วรันไฟล์ `main.py` เพื่อโหลดข้อมูล ทำความสะอาด เทรนโมเดล และบันทึกผลลัพธ์ลงในโฟลเดอร์ `outputs/`
-   ```bash
-   python main.py
-   ```
-
-3. **ทดสอบโมเดล (Testing Pipeline):**
-   หลังจากเทรนเสร็จเรียบร้อย สามารถรันไฟล์ `test_cnn.py` เพื่อตรวจสอบประสิทธิภาพของโมเดลกับชุดทดสอบ (`X_test.npy`) ได้ทันที:
-   ```bash
-   python test_cnn.py
-   ```
-
 # สรุป (Summary)
 
 โปรเจกต์นี้ประยุกต์ใช้โครงข่ายประสาทเทียมเชิงลึก (Deep Neural Network - DNN) ในการจำแนกประเภทสัตว์จากชุดข้อมูล `zoo2.csv` และ `zoo3.csv` ข้อมูลทั้งหมดจะถูกจัดการผ่านโมดูลแยกส่วนอย่างเป็นระเบียบ ทำการสเกลข้อมูลด้วย `StandardScaler` และแบ่งสัดส่วนข้อมูลอย่างแม่นยำด้วยเทคนิค Stratified Split โมเดลจะถูกเทรนพร้อมกลไก `EarlyStopping` เพื่อป้องกันการเกิด Overfitting และประเมินผลผ่านค่า Accuracy, Classification Report, Confusion Matrix รวมถึงกราฟแสดง Loss และ Accuracy ในแต่ละ Epoch เพื่อตรวจสอบประสิทธิภาพและความถูกต้องของโมเดลอย่างรอบด้าน
