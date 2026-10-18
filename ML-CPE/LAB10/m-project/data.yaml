@@ -1,0 +1,13 @@
+path: D:/Work/ML-CPE/LAB10/Dataset/Aquarium
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: fish
+  1: jellyfish
+  2: penguin
+  3: puffin
+  4: shark
+  5: starfish
+  6: stingray
