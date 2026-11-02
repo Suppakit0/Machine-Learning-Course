@@ -1,0 +1,12 @@
+Test accuracy: 0.6105\nTest loss: 1.0891\n\n              precision    recall  f1-score   support
+
+   cardboard     0.7576    0.8333    0.7937        60
+       glass     0.6119    0.5395    0.5734        76
+       metal     0.5238    0.5323    0.5280        62
+       paper     0.5603    0.8876    0.6870        89
+     plastic     0.7647    0.3562    0.4860        73
+       trash     0.3333    0.1500    0.2069        20
+
+    accuracy                         0.6105       380
+   macro avg     0.5919    0.5498    0.5458       380
+weighted avg     0.6231    0.6105    0.5913       380
