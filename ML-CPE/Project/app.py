@@ -276,57 +276,66 @@ except Exception as e:
     st.stop()
 
 
+
 # -----------------------------
 # UPLOAD SECTION
 # -----------------------------
-st.markdown('<div class="section-title">📸 วิเคราะห์ประเภทขยะ</div>',
-            unsafe_allow_html=True)
+st.markdown(
+    '<div class="section-title">📸 วิเคราะห์ประเภทขยะ</div>',
+    unsafe_allow_html=True
+)
 
 left, right = st.columns([1, 1.15], gap="large")
 
 with left:
-    st.markdown('<div class="panel">', unsafe_allow_html=True)
-    st.markdown("### 📤 อัปโหลดรูปภาพ")
-    st.write("เลือกรูปภาพขยะที่ต้องการให้ AI วิเคราะห์")
+    with st.container(border=True):
+        st.markdown("### 📤 อัปโหลดรูปภาพ")
+        st.write("เลือกรูปภาพขยะที่ต้องการให้ AI วิเคราะห์")
 
-    uploaded_file = st.file_uploader(
-        "เลือกไฟล์รูปภาพ",
-        type=["jpg", "jpeg", "png"],
-        label_visibility="collapsed"
-    )
+        uploaded_file = st.file_uploader(
+            "เลือกไฟล์รูปภาพ",
+            type=["jpg", "jpeg", "png"],
+            label_visibility="collapsed"
+        )
 
-    st.markdown(
-        '<div class="upload-hint">รองรับไฟล์ JPG, JPEG และ PNG</div>',
-        unsafe_allow_html=True
-    )
-    st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown(
+            '<div class="upload-hint">รองรับไฟล์ JPG, JPEG และ PNG</div>',
+            unsafe_allow_html=True
+        )
 
 with right:
-    st.markdown('<div class="panel">', unsafe_allow_html=True)
-    st.markdown("### 🖼️ ภาพตัวอย่าง")
+    with st.container(border=True):
+        st.markdown("### 🖼️ ภาพตัวอย่าง")
 
-    if uploaded_file is not None:
-        image = Image.open(uploaded_file).convert("RGB")
-        st.image(image, use_container_width=True)
-        st.caption(f"ชื่อไฟล์: {uploaded_file.name}")
-    else:
-        st.markdown("""
-        <div style="
-            height: 240px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            background: #f8fafc;
-            border: 2px dashed #cbd5e1;
-            border-radius: 15px;
-            color: #94a3b8;">
-            <div style="font-size: 55px;">🌱</div>
-            <div>รูปภาพของคุณจะแสดงที่นี่</div>
-        </div>
-        """, unsafe_allow_html=True)
+        if uploaded_file is not None:
+            image = Image.open(uploaded_file).convert("RGB")
 
-    st.markdown('</div>', unsafe_allow_html=True)
+            st.image(
+                image,
+                use_container_width=True
+            )
+
+            st.caption(f"ชื่อไฟล์: {uploaded_file.name}")
+
+        else:
+            st.markdown("""
+            <div style="
+                height: 240px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background: #f8fafc;
+                border: 2px dashed #cbd5e1;
+                border-radius: 15px;
+                color: #64748b;
+                text-align: center;
+            ">
+                <div style="font-size: 55px;">🌱</div>
+                <div>อัปโหลดรูปภาพขยะเพื่อเริ่มต้นวิเคราะห์ด้วย AI</div>
+            </div>
+            """, unsafe_allow_html=True)
+
 
 
 # -----------------------------
